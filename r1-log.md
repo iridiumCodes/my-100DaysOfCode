@@ -320,3 +320,42 @@ Toyed around with CSS Flexbox common patterns & CSS Grid common layouts
   cd myApp
 
   npm start
+
+### R1D12
+
+**React Component : Essential Elements**
+
+- import React, { Component } from 'react'
+- render()
+- return
+- export default ComponentName
+
+Tachyons (Styling library) - npm install tachyons —go to index.js `import 'tachyons';`
+
+JSX - React needs to be in scope, that's why we import at the top of each component JS file
+
+Function must return only one element, wrapped in an enclosing tag - can't return a div and an h1
+
+key prop for VirtualDOM to keep track of changes
+
+crazy cattery interface, object returns cards
+
+### R1D13
+
+State : One way data flow — Components that are neighbords and need to communicate, do so by sending state to a common parent and the parent in turn will pass on the state to the neighbor component
+
+Pure components — pure functions, deterministic, receive an input(props) and return the output
+
+State is an **object** that describes the application, mutable and is owned by the parent Component that has the right to change it and pass it on
+
+class ← constuctor( )←super() and then this.state
+
+when we try to return or console.log an event we use `event.target.value`
+
+In React, inside a class anytime we make our own methods, we use arrow functions, and anytime we want to change state we call method `this.setState({key:value })`
+
+For styling, create App.css and/or index.css files to target specific elements
+
+@font-face for more stylized fonts, look for woff font webkits
+
+[Cufon Fonts: Download High Quality Free Fonts for Desktop and WebFonts](https://www.cufonfonts.com/)
