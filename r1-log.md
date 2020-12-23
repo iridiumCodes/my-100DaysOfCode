@@ -19,3 +19,27 @@ You should imagine bindings(variables) as tentacles, rather than boxes. They do 
 [Open Sauced](https://opensauced.pizza/)
 
 [Understanding the "this" keyword, call, apply, and bind in JavaScript - ui.dev](https://ui.dev/this-keyword-call-apply-bind-javascript/)
+
+### R1D3
+
+```jsx
+const whereAmI = (username, location) =>
+  username && location ? 'I am not lost' : 'I am totally lost'; // one line operation does not need closure, else needs return statement
+```
+
+Symbols: values created with the `Symbol` function → p.106 El.JS
+
+My first pull request that fixes an issue!
+
+[How To Create a Pull Request on GitHub | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github)
+
+- Alternate for loop
+
+```jsx
+for (let entry of JOURNAL) {
+console.log(${entry.events.length} events.);
+```
+
+When a for loop looks like this, with the word _of_ after a variable definition, it will loop over the elements of the value given after _of_. This works not only for arrays but also for strings and some other data structures. - a case of polymorphism
+
+- Closures, currying, compose
