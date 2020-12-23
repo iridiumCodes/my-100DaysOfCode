@@ -43,3 +43,39 @@ console.log(${entry.events.length} events.);
 When a for loop looks like this, with the word _of_ after a variable definition, it will loop over the elements of the value given after _of_. This works not only for arrays but also for strings and some other data structures. - a case of polymorphism
 
 - Closures, currying, compose
+
+### R1D4
+
+- Things to do as a developer : Minimize side-effects → Functional Purity
+
+  Input → Function →Return Value
+
+  Inside a function should be like its own little world. Don't affect outside scope.
+
+  Return a value so that you avoid `undefined` . —> Determinism
+
+- Map, filter, reduce for arrays
+
+```jsx
+const doubleArray = array.map(num ⇒ num * 2); //directly maps each array element
+//and replaces it with its manipulated counterpart
+
+```
+
+```
+const filterArray = array.filter(num => num < 6);
+//it will create a new array that contains only the original values that
+//fullfill the condition
+```
+
+```
+const reduceArray = array.reduce((accumulator,num) => {
+	return accumulator + num;
+}, 0);
+//0 is the starting value for the accumulator, acc shorthand for accumulator
+//the end result is NOT an array -- not even for strings
+```
+
+- primitive vs reference types
+- context (≠ scope)
+- instantiation —> when you make a copy of an object and reuse the code
