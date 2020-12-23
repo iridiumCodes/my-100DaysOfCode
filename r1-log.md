@@ -285,3 +285,38 @@ _Climbing the mountain of modules_
 - IIFEs: solves the global pollution problem, because everything inside an IIFE is local, still no dependency resolution
 - Browserify + CommonJS syntax ⇒ Module bundler that creates one file (bundle) with the necessary interdependencies to each other
 - ES6 + Webpack2
+
+### R1D10
+
+Toyed around with CSS Flexbox common patterns & CSS Grid common layouts
+
+### R1D11
+
+- Node and Npm intro / update to latest version
+- npm init in project directory → package.json
+- npm allows for local or global installation (-g)
+- node modules installed and listed as dependencies in the package.json file, don't need to be included in the code, eg in Github. Whenever someone runs npm install, the package.json file will download the necessary dependencies.
+- dev dependencies are required only for the development phase and are never shipped with the final product code
+- "scripts" in package.json are commands that we can batch run with `npm run scriptName`
+
+  ```jsx
+  "scripts": {
+  	"build": "browserify script.js > bundle.js && live-server"
+  }
+  ```
+
+  [npm semantic version calculator](https://semver.npmjs.com/)
+
+  Intro to React:
+
+  - Think in Components
+  - One way data-flow
+  - Virtual DOM
+
+  npx — package runner tool that comes with npm 5.2+
+
+  npx create-react-app myApp
+
+  cd myApp
+
+  npm start
