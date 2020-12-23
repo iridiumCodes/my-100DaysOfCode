@@ -261,3 +261,27 @@ function foo() {
 
 foo();
 ```
+
+### R1D8 & D9
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5a05283a-de24-4b4f-a97b-8f2f39b44e65/Screen_Shot_2020-11-23_at_00.16.05.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5a05283a-de24-4b4f-a97b-8f2f39b44e65/Screen_Shot_2020-11-23_at_00.16.05.png)
+
+—Call Stack
+
+—Web Api
+
+—Callback Queue
+
+—Event Log: Event log checks to see if call stack is empty, and if it is it calls the callback that is waiting
+
+**JavaScript is a single-threaded language that can be non-blocking**
+
+MODULES:
+
+_Climbing the mountain of modules_
+
+- Inline script: lack of code reusability, pollution of global namespace
+- Script tags: re-copy script tags for every new html page, lack of dependency resolution(the order in which the js script files are included and called is important), still pollutes the global namespace
+- IIFEs: solves the global pollution problem, because everything inside an IIFE is local, still no dependency resolution
+- Browserify + CommonJS syntax ⇒ Module bundler that creates one file (bundle) with the necessary interdependencies to each other
+- ES6 + Webpack2
