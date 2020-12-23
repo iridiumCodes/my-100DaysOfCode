@@ -423,3 +423,30 @@ if (true) {
 ```
 
 [Deployment | Create React App](https://create-react-app.dev/docs/deployment/#github-pages)
+
+### R1D16 & D17
+
+**Client-Server Protocol**
+
+Request →HTTP methods:
+
+- GET
+- POST
+- PUT
+- DELETE
+
+Response →HTTP Status Messages and/or Data (HTML, CSS, JS)
+
+Ways to send data (eg form) : a) query strings[GET] b)body[POST]
+
+HTTPS layer encrypted with TLS or SSL, always use it for sensitive data sent to server
+
+JSON : easier to mount because it is an object, smaller size due to less tags (compared to XML)
+
+json.stringify(user) <-> json.parse(user) encode-decode to json so that machine understands the contents of the object sent
+
+AJAX - update a webpage without reloading the page, and does it on the background while the user interacts with the page
+
+fetch (promises) .then returns the response
+
+PROMISES(ES6 Feature) : replaces CALLBACKS —(the pyramid of doom)
