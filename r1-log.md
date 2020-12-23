@@ -359,3 +359,67 @@ For styling, create App.css and/or index.css files to target specific elements
 @font-face for more stylized fonts, look for woff font webkits
 
 [Cufon Fonts: Download High Quality Free Fonts for Desktop and WebFonts](https://www.cufonfonts.com/)
+
+### R1D14
+
+Smart vs dumb components — Smart components have state and are usually in a class syntax. Dumb components are pure functions.
+
+[Mock API at Scale | Mocki](https://mocki.io/)
+
+Created mock api to grab the data from
+
+**Lifecycle methods:**
+
+- Mounting
+- Updating
+- Unmounting
+
+```jsx
+componentDidMount() {
+    fetch('https://api.mocki.io/v1/8905b8d6')
+      .then(response=>response.json())
+      .then(users => this.setState({cats: users}));
+  }
+```
+
+props , state , children
+
+JSX : `style = {{put css styles here but in the form of: **selector: 'value', ...**}}`
+
+folder structure is important
+
+Inside src > components and src > containers
+
+Containers house smart components, that contain state, eg App.js
+
+Components are pure functions
+
+Don't forget to update the paths and imports
+
+npm run build (script inside package.json)
+
+npm install -g serve serve -s build
+
+Find out more about deployment here:
+
+[https://cra.link/deployment](https://cra.link/deployment)
+
+### R1D15
+
+`npm audit`, —> `npm audit fix —force` or `npm update`
+
+```jsx
+componentDidCatch () {
+	this.setState....
+}
+```
+
+```jsx
+if (true) {
+  throw new Error('Nooooooo!');
+}
+// put it in places where we need to throw an error to check
+//if boundaries work
+```
+
+[Deployment | Create React App](https://create-react-app.dev/docs/deployment/#github-pages)
