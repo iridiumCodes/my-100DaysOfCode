@@ -167,3 +167,97 @@ const reduceArray = array.reduce((accumulator,num) => {
       try {
       } catch {} //stopped requiring passing an error argument to catch (error)
       ```
+
+### R1D7
+
+**Object.fromEntries(stringName) is run on a string of usually pairs of [key,value] and returns an object == the reverse of Object.entries()**
+
+Object.values
+
+Object.entries
+
+_Object.keys - old one_
+
+**from object —> array —> manipulate values —> back to object again —? is that a pattern?**
+
+ADVANCED LOOPING:
+
+- for of - **iterables—> arrays and strings**
+
+```jsx
+const basket = ['apples', 'grapes', 'oranges'];
+
+//Iterating available for iterable data structures - **arrays**, **strings**
+for (item of basket) {
+  console.log(item);
+}
+```
+
+- for in - **enumerable—>** properties of objects
+
+```jsx
+const detailedBasket = {
+  apples: 5,
+  oranges: 3,
+  grapes: 100,
+};
+
+for (item in detailedBasket) {
+  console.log(item);
+}
+
+//works for iterables as well, because they are considered objects.
+```
+
+- ES2020
+
+Optional Chaining Operator
+
+```jsx
+let weight = andrei.pokemon?.pikachu?.weight; //checks is there such objects and
+//such properties
+```
+
+Nullish Coalescing Operator
+
+```jsx
+let power = andrei.pokemon?.pikachu?.power || 'no power'
+//this OR checks if the left side is truthy, if not returns the right side
+
+let power = andrei.pokemon?.pikachu?.power **??** 'no power'
+//NCO: checks if the left side is null or undefined
+```
+
+- Debugging
+
+Instead of inserting console.log('label', value) statements to demonstrate the variables we can use the keyword `debugger;`
+
+Step through - Context - Scope
+
+**JS engine**
+
+- Memory heap — Memory leaks from leftover unused variables, fill up the memory heap, global variables are bad for that
+- Call Stack
+
+JavaScript is a single-threaded language that can be non-blocking
+
+Has one call stack - LIFO - only one statement is executed at a time
+
+Multi-threaded environvments face the issue of deadlocks -
+
+---
+
+Async is what can make it be non-blocking. We can run processes in the background and when the result is result is ready it will be called back by the event loop.
+
+Async is needed to avoid delays when waiting for a task to finish executing, or a website freezing etc.
+
+Stack-overflow :
+
+```jsx
+//recursion --> infinite loop
+function foo() {
+  foo();
+}
+
+foo();
+```
