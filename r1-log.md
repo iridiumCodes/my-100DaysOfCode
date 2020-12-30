@@ -450,3 +450,7 @@ AJAX - update a webpage without reloading the page, and does it on the backgroun
 fetch (promises) .then returns the response
 
 PROMISES(ES6 Feature) : replaces CALLBACKS —(the pyramid of doom)
+
+### Day 18
+
+Async/Await and inside try-catch blocks for exceptions
