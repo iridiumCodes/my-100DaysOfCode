@@ -458,3 +458,34 @@ Async/Await and inside try-catch blocks for exceptions
 ### Day 19
 
 Reviewed JS from EloquentJS books and made a plan for future projects
+
+###Day 20
+
+**ES9**
+
+- Object spread operator ... ( we used to be able to this with arrays already in ES6 but now we can do it with objects )
+- .finally a final block of functionality in a promise declaration, after .then and .catch that runs no matter what!
+- **for await of** - //In this case, for-await takes each item from the array and waits for it to resolve. You'll get the first response even if the second response isn't ready yet, but you'll always get the responses in the correct order.
+
+```jsx
+const getData2 = async function () {
+  const arrayOfPromises = urls.map((url) => fetch(url));
+  for (const request of arrayOfPromises) {
+    console.log(request);
+  }
+
+  for await (const request of arrayOfPromises) {
+    const data = await request.json();
+    console.log(data);
+  }
+};
+```
+
+- ES2020 allSettled()
+- Backend basics
+
+  LAMP stack vs. Application Server (scaling for big applications with load balancer)
+
+  ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/91447a9e-de1d-4d53-afcb-b3a55fb67aa3/Screen_Shot_2020-12-29_at_22.24.20.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/91447a9e-de1d-4d53-afcb-b3a55fb67aa3/Screen_Shot_2020-12-29_at_22.24.20.png)
+
+- APIs - API keys to track the charges for API usage, from commercial services, Documentation, JSON standard
