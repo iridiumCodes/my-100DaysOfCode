@@ -491,3 +491,9 @@ const getData2 = async function () {
 - APIs - API keys to track the charges for API usage, from commercial services, Documentation, JSON standard
 
 ### Day 21
+
+Relational databases need to have a defined schema before we start filling in data
+
+NoSQL-Non Relational Databases, we can define it as we go, more flexible
+
+MongoDB is document oriented, uses MongoDB query language
