@@ -489,3 +489,5 @@ const getData2 = async function () {
   ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/91447a9e-de1d-4d53-afcb-b3a55fb67aa3/Screen_Shot_2020-12-29_at_22.24.20.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/91447a9e-de1d-4d53-afcb-b3a55fb67aa3/Screen_Shot_2020-12-29_at_22.24.20.png)
 
 - APIs - API keys to track the charges for API usage, from commercial services, Documentation, JSON standard
+
+### Day 21
