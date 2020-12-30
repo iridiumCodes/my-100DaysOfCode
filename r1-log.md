@@ -454,3 +454,7 @@ PROMISES(ES6 Feature) : replaces CALLBACKS —(the pyramid of doom)
 ### Day 18
 
 Async/Await and inside try-catch blocks for exceptions
+
+### Day 19
+
+Reviewed JS from EloquentJS books and made a plan for future projects
