@@ -451,15 +451,15 @@ fetch (promises) .then returns the response
 
 PROMISES(ES6 Feature) : replaces CALLBACKS —(the pyramid of doom)
 
-### Day 18
+### R1D18
 
 Async/Await and inside try-catch blocks for exceptions
 
-### Day 19
+### R1D19
 
 Reviewed JS from EloquentJS books and made a plan for future projects
 
-###Day 20
+### R1D20
 
 **ES9**
 
@@ -490,7 +490,7 @@ const getData2 = async function () {
 
 - APIs - API keys to track the charges for API usage, from commercial services, Documentation, JSON standard
 
-### Day 21
+### R1D21
 
 Relational databases need to have a defined schema before we start filling in data
 
