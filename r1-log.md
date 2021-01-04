@@ -499,3 +499,8 @@ NoSQL-Non Relational Databases, we can define it as we go, more flexible
 MongoDB is document oriented, uses MongoDB query language
 
 ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8527f7b6-50b7-4e82-b9ec-99d376b3135a/Screen_Shot_2020-12-30_at_22.13.13.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8527f7b6-50b7-4e82-b9ec-99d376b3135a/Screen_Shot_2020-12-30_at_22.13.13.png)
+
+### R1D22
+
+New React Project - Color Detection App
+
