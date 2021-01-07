@@ -525,7 +525,7 @@ New React Project - Color Detection App
 2. use it in the source of the <img>
 3. Align Logo and Nav with flexbox
 
-**ImageLink Component(→ for day 22):**
+**ImageLink Component(→ for day 23):**
 
 1. Title that prompts user to input image link
 2. image field input and button to submit
