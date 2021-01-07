@@ -504,3 +504,11 @@ MongoDB is document oriented, uses MongoDB query language
 
 New React Project - Color Detection App
 
+1. Create react app CRA
+2. List out components in App.js
+    1. Navigation
+    2. Logo
+    3. ImageLinkField
+    4. ColorDetection
+3. Create components folder
+4. Start building each component
