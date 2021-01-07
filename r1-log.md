@@ -518,3 +518,17 @@ New React Project - Color Detection App
 
 1. arrow function, returns "HTML" in JSX form
 2. don't forget to export default componentName
+
+**Logo Component:**
+
+1. import logo from its source in the project folder
+2. use it in the source of the <img>
+3. Align Logo and Nav with flexbox
+
+**ImageLink Component(→ for day 22):**
+
+1. Title that prompts user to input image link
+2. image field input and button to submit
+3. Style them (CSS3 patterns [http://projects.verou.me/css3patterns/](http://projects.verou.me/css3patterns/) )
+4. Make button cursor pointer in index.css
+5. Change font in index.css
