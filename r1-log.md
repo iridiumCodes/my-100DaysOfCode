@@ -532,3 +532,4 @@ New React Project - Color Detection App
 3. Style them (CSS3 patterns [http://projects.verou.me/css3patterns/](http://projects.verou.me/css3patterns/) )
 4. Make button cursor pointer in index.css
 5. Change font in index.css
+6. particles.js and react-particles.js for background (position fixed, and z-index)
