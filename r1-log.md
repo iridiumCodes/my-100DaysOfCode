@@ -511,4 +511,10 @@ New React Project - Color Detection App
     3. ImageLinkField
     4. ColorDetection
 3. Create components folder
-4. Start building each component
+4. npm install tachyons & import 'tachyons' in index.js
+5. Start building each component
+
+**Navigation component:**
+
+1. arrow function, returns "HTML" in JSX form
+2. don't forget to export default componentName
