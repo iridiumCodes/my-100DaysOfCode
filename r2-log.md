@@ -1,4 +1,8 @@
-#100DaysOfCode Log - Round 1 - [Iris Diakoumi]
+
+
+ # #100DaysOfCode Log - Round 2 - [Iris Diakoumi]
+
+## Log
 
 The log of my #100DaysOfCode challenge. Started on [January 8, Friday, 2020]. This is a fresh start. Last round I couldn't complete the daily streak due to unforeseen circumstance, so I'm starting a new iteration!
 
