@@ -4,6 +4,40 @@
 
 The log of my #100DaysOfCode challenge. Started on [January 8, Friday, 2020]. This is a fresh start. Last round I couldn't complete the daily streak due to unforeseen circumstance, so I'm starting a new iteration!
 
+## R2D0
+
+**Project ColorDetection steps:**
+
+1. Create react app
+2. List out components in App.js
+   1. Navigation
+   2. Logo
+   3. ImageLinkField
+   4. ColorDetection
+3. Create components folder
+4. npm install tachyons & import 'tachyons' in index.js
+5. Start building each component
+
+**Navigation component:**
+
+1. arrow function, returns "HTML" in JSX form
+2. don't forget to export default componentName
+
+**Logo Component:**
+
+1. import logo from its source in the project folder
+2. use it in the source of the <img>
+3. Align Logo and Nav with flexbox
+
+**ImageLink Component(→ for day 1):**
+
+1. Title that prompts user to input image link
+2. image field input and button to submit
+3. Style them (CSS3 patterns [http://projects.verou.me/css3patterns/](http://projects.verou.me/css3patterns/) )
+4. Make button cursor pointer in index.css
+5. Change font in index.css
+6. particles.js and react-particles.js for background (position fixed, and z-index)
+
 ### R2D1
 
 I'm currently building a React app that will detect dominant colors in an image the user uploads. Plan is to have proper authentication, user profile and possibly an archive of the user's saved color palettes. Progress so far:
