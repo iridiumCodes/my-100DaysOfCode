@@ -68,3 +68,10 @@ Good news.. The Clarifai API has deprecated their javascript API. In the past 3 
 - [x] Sign up for Clarifai API Key
 - [x] Setup inside App.js
 - [x] Send sample url and receive object response OK
+
+## R2D3
+
+- [x] Worked with API on uploading my own image URL
+- [x] Showing images uploaded below the search field
+- [x] Planned almost all of my projects for the future weeks
+- [x] Done with Week 2 of Agile with Jira Coursera Course
