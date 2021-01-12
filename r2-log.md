@@ -75,3 +75,28 @@ Good news.. The Clarifai API has deprecated their javascript API. In the past 3 
 - [x] Showing images uploaded below the search field
 - [x] Planned almost all of my projects for the future weeks
 - [x] Done with Week 2 of Agile with Jira Coursera Course
+
+## R2D4
+
+- [x] Add Image URL to State
+- [x] update state with input from field
+- [x] pass the image URL to the ColorDetection component
+- [x] pass image URL as props in the ColorDetection Component
+- [x] Use the props as src for image to be displayed in ColorDetection Component
+- [x] go through APi response and find hex value for each entry in the array
+- [x] use for-each loop in case I want to add a break to set maximum number of values returned
+- [x] added labels for name and hex value using template literals
+- [x] restrict the size of the image displayed for consistency
+- [x] git remote set-url origin new_url (renamed repository, updated the remote url in local repo)
+
+**NOTE about setState():**
+
+Calling `setState()` in React is asynchronous, for various reasons (mainly performance).
+
+Under the covers React will batch multiple calls to `setState()` into a single call, and then re-render the component a single time, rather than re-rendering for every state change.
+
+Therefore the imageUrl parameter would have never worked in our example, because when we called Clarifai with our the predict function, React wasn't finished updating the state.
+
+One way to go around this issue is to use a callback function:`setState(updater, callback)`
+
+[Read about it more here](https://reactjs.org/docs/react-component.html#setstate)
