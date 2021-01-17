@@ -100,3 +100,15 @@ Therefore the imageUrl parameter would have never worked in our example, because
 One way to go around this issue is to use a callback function:`setState(updater, callback)`
 
 [Read about it more here](https://reactjs.org/docs/react-component.html#setstate)
+
+## R2D5 & 6
+
+- [x]  Sign in form
+- [x]  Route switch
+    - [x]  route state paramenter keeps track of where the user is
+    - [x]  conditional statement will render components accordingly
+    - [x]  prop onRouteChange to each component that changes onClick of the components
+    - [x]  onRouteChange changes the route dynamically depending on which component calls it
+    - [x]  each component runs an arrowfunction that in turn runs the onRouteChange with a different string(route) as the parameter
+- [x]  Register form
+- [x]  Route switch
