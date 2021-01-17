@@ -112,3 +112,12 @@ One way to go around this issue is to use a callback function:`setState(updater,
     - [x]  each component runs an arrowfunction that in turn runs the onRouteChange with a different string(route) as the parameter
 - [x]  Register form
 - [x]  Route switch
+
+## R2D7
+- [x]  Top line of render method, destructure state object for convenience and clarity
+- [x]  for —> htmlFor
+- [x]  form —> div for JSON submission
+- [x]  Node - versions, globalThis, __dirname, ES6 modules (.mjs or package.json with "type": "module")
+- [x]  nodemon setup inside node server project
+- [x]  Work with basic node server, expressJS, middleware, Postman, RESTful APIs,
+- [x]  Node File System Module (readFile, readFileSync, appendFile, writeFile, unlink) - I/O covered
