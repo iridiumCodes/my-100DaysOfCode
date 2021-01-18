@@ -103,21 +103,44 @@ One way to go around this issue is to use a callback function:`setState(updater,
 
 ## R2D5 & 6
 
-- [x]  Sign in form
-- [x]  Route switch
-    - [x]  route state paramenter keeps track of where the user is
-    - [x]  conditional statement will render components accordingly
-    - [x]  prop onRouteChange to each component that changes onClick of the components
-    - [x]  onRouteChange changes the route dynamically depending on which component calls it
-    - [x]  each component runs an arrowfunction that in turn runs the onRouteChange with a different string(route) as the parameter
-- [x]  Register form
-- [x]  Route switch
+- [x] Sign in form
+- [x] Route switch
+  - [x] route state paramenter keeps track of where the user is
+  - [x] conditional statement will render components accordingly
+  - [x] prop onRouteChange to each component that changes onClick of the components
+  - [x] onRouteChange changes the route dynamically depending on which component calls it
+  - [x] each component runs an arrowfunction that in turn runs the onRouteChange with a different string(route) as the parameter
+- [x] Register form
+- [x] Route switch
 
 ## R2D7
-- [x]  Top line of render method, destructure state object for convenience and clarity
-- [x]  for —> htmlFor
-- [x]  form —> div for JSON submission
-- [x]  Node - versions, globalThis, __dirname, ES6 modules (.mjs or package.json with "type": "module")
-- [x]  nodemon setup inside node server project
-- [x]  Work with basic node server, expressJS, middleware, Postman, RESTful APIs,
-- [x]  Node File System Module (readFile, readFileSync, appendFile, writeFile, unlink) - I/O covered
+
+- [x] Top line of render method, destructure state object for convenience and clarity
+- [x] for —> htmlFor
+- [x] form —> div for JSON submission
+- [x] Node - versions, globalThis, \_\_dirname, ES6 modules (.mjs or package.json with "type": "module")
+- [x] nodemon setup inside node server project
+- [x] Work with basic node server, expressJS, middleware, Postman, RESTful APIs,
+- [x] Node File System Module (readFile, readFileSync, appendFile, writeFile, unlink) - I/O covered
+
+## R2D8
+
+- [x] Add .gitignore for node_modules etc.
+
+  _node_modules_
+
+  _build_
+
+  _npm-debug.log_
+
+  _.env_
+
+  _.DS_Store_
+
+- [x] added type:module in package.json
+- [x] tested signin endpoint on Postman (remember to post body raw → JSON) with check of static user object
+
+  ```jsx
+  *app*.use(*express*.urlencoded({extended: *false*}));  *//replaces bodyParser package, native functionality
+  app*.use(*express*.json());
+  ```
