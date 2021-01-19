@@ -144,3 +144,10 @@ One way to go around this issue is to use a callback function:`setState(updater,
   *app*.use(*express*.urlencoded({extended: *false*}));  *//replaces bodyParser package, native functionality
   app*.use(*express*.json());
   ```
+
+## R2D9
+
+- [x] _/profile/:userId --> GET = user OK_
+- [x] _/palettes --> PUT = updated user palettes array with an array of colors_
+- [x] CORS, BCRYPTJS
+- [ ] Connect Front-End with Server → Signin and Register for tomorrow
