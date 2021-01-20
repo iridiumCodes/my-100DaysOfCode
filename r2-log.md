@@ -151,3 +151,45 @@ One way to go around this issue is to use a callback function:`setState(updater,
 - [x] _/palettes --> PUT = updated user palettes array with an array of colors_
 - [x] CORS, BCRYPTJS
 - [ ] Connect Front-End with Server → Signin and Register for tomorrow
+
+## R2D10
+```jsx
+users.sort((a, b) => a.followers < b.followers ? 1 : -1)
+```
+
+DRY principle
+
+Unit Testing → Arrange Act Asser Pattern
+
+```jsx
+// Unit Test
+
+function reverse(str) {
+    // write code here
+    let splitString = str.split("")
+    let reverseArray = splitString.reverse()
+    let joinArray = reverseArray.join("")
+    return joinArray
+}
+
+/**
+* Test Suite 
+*/
+describe('reverse()', () => {
+    it('reverses a word', () => {
+        // arrange
+        const input = 'burgers'
+        
+        // act
+        const result = reverse(input)
+        
+        // log
+        console.log('result:', result)
+        
+        // assert
+        expect(result).toBe('sregrub')
+    })
+})
+```
+
+ColorDetect Project - smart component for Signing and Set State
