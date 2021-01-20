@@ -192,4 +192,4 @@ describe('reverse()', () => {
 })
 ```
 
-ColorDetect Project - smart component for Signing and Set State
+ColorDetect Project - smart component for Sign-in and Set State with Email and Password events
