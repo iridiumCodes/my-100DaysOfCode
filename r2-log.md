@@ -200,5 +200,5 @@ ColorDetect Project - smart component for Sign-in and Set State with Email and P
 - [x]  connect register component with server
 - [x]  Do the appropriate route changes
 - [x]  Palettes component basic structure ( I need to design the functionality.. for the moment it displays the name and a title for the palettes )
-
+- [x]  PostgreSQL and PSequel installed and setup, SQL refresher
 
