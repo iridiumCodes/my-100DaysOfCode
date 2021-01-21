@@ -193,3 +193,12 @@ describe('reverse()', () => {
 ```
 
 ColorDetect Project - smart component for Sign-in and Set State with Email and Password events
+
+## R2D11
+- [x]  onChange form event handler, fetch (does a GET by default, make it post)
+- [x]  connect signin component with server
+- [x]  connect register component with server
+- [x]  Do the appropriate route changes
+- [x]  Palettes component basic structure ( I need to design the functionality.. for the moment it displays the name and a title for the palettes )
+
+
