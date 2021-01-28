@@ -202,3 +202,9 @@ ColorDetect Project - smart component for Sign-in and Set State with Email and P
 - [x]  Palettes component basic structure ( I need to design the functionality.. for the moment it displays the name and a title for the palettes )
 - [x]  PostgreSQL and PSequel installed and setup, SQL refresher
 
+## R2D12
+Trying to fix a PostgreSQL error --> createdb: error: could not connect to database template1: could not connect to server: No such file or directory
+        Is the server running locally and accepting
+        connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+        
+Uninstalling PostgreSQL and reinstalling because apparently this happens when no version is specified during installation.
