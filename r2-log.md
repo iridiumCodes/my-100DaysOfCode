@@ -208,3 +208,30 @@ Trying to fix a PostgreSQL error --> createdb: error: could not connect to datab
         connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
         
 Uninstalling PostgreSQL and reinstalling because apparently this happens when no version is specified during installation.
+
+## R2D13
+- [x]  ERROR fixed!
+- [x]  tables: users, login, palettes
+
+```sql
+CREATE TABLE users (
+id serial PRIMARY key,
+name VARCHAR(100),
+email text UNIQUE NOT NULL,
+joined TIMESTAMP NOT NULL
+);
+```
+
+[8.15. Arrays](https://www.postgresql.org/docs/current/arrays.html)
+
+PSequel decided to stop working — recent open issue in Github, does not render data, like column names and even entries, even though it shows the number of rows in each table
+
+Moving to pgAdmin... NOPE — I will work with psql in the terminal for now
+
+**Install KNEX.js** 
+
+npm install knex
+
+npm install pg
+
+- Do not return error message from json response (eg user with that email already exists). It's a security concern. Instead console.log a custom, less descriptive message
