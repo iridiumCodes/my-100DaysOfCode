@@ -258,3 +258,22 @@ Dependency injection in imported modules
 ## R2D16
 
 Endpoints organized in controllers, handling functions with callbacks
+
+## R2D17
+
+- [x]  Validation for register and signin, don't allow empty user to signin or register
+- [x]  Allow to return to signin component after register
+- [x]  Hide API key — move from client to server, handle API function and endpoint
+- [x]  Fetch from client
+- [x]  Environment variables
+
+```jsx
+console.log(process.env)
+```
+
+Set environment in fish:
+
+env PORT='3000' node server.js
+
+- [x]  Be careful to open using `heroku open` for the correct link
+- [x]  Connect Database to Heroku
