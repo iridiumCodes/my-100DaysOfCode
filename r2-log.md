@@ -283,3 +283,23 @@ Webflow bootcamp with Dubstech
 
 ## R2D19
 Webflow site with e-commerce component -- submitted for certificate https://iris-webflow-bootcamp.webflow.io/
+
+## R2D20
+Front End Deploy to Heroku
+
+Environment Variable for Clarifai API Key
+
+- [ ]  start script replace with serve -s build (after everything is done)
+
+Log response array to find probability parameter
+
+## R2D21
+Rendered swatches by mapping an array of returned values
+
+Heroku push — eslint prettier error is solved by substituting the react start script with 
+
+"start": "serve -s build",
+
+Some styling of the components, but will finish tomorrow
+
+Branching off to incorporate hooks
