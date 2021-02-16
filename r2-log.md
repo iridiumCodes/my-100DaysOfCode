@@ -303,3 +303,15 @@ Heroku push — eslint prettier error is solved by substituting the react start 
 Some styling of the components, but will finish tomorrow
 
 Branching off to incorporate hooks
+
+## R2D22
+Learned how to convert a React class component to Functional component
+
+Converted all class components (App, Register, Signin) in my Color Detector app
+
+## R2D23 & R2D24
+Fixed Responsive for various device sizes, and fluid resolutions in between - Redesigned components
+
+Added Footer Component
+
+Tweaked some colors for better contrast and UX
