@@ -315,3 +315,30 @@ Fixed Responsive for various device sizes, and fluid resolutions in between - Re
 Added Footer Component
 
 Tweaked some colors for better contrast and UX
+
+## R2D25
+CSS Reset by Chris Coyier
+
+```jsx
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+```
+
+[Box Sizing | CSS-Tricks](https://css-tricks.com/box-sizing/)
+
+Expenses tracker app - basic setup and Expenses component setup
+
+❗️Always use a **key** property (unique) when using **map** over an array
+
+- [ ]  Add
+- [ ]  Edit
+- [ ]  Delete
+- [ ]  Local Storage
