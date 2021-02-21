@@ -342,3 +342,23 @@ Expenses tracker app - basic setup and Expenses component setup
 - [ ]  Edit
 - [ ]  Delete
 - [ ]  Local Storage
+
+## R2D26
+- [x]  Add
+- [x]  Edit
+- [x]  Delete
+- [ ]  Local Storage
+
+**event.preventDefault(); —> Prevents default form submission**
+
+[Using the Effect Hook - React](https://reactjs.org/docs/hooks-effect.html)
+
+If you start editing one user, then try to switch to another user, nothing will happen. Why? Well, the component is already open, and although the state on the parent has changed, it's not registered down to the props.
+
+We want to let the EditUserForm component know the props have changed, which we would have done before with componentDidUpdate.
+
+```jsx
+useEffect(() => {
+  setUser(props.currentUser)
+}, [props])
+```
