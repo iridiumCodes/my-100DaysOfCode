@@ -362,3 +362,70 @@ useEffect(() => {
   setUser(props.currentUser)
 }, [props])
 ```
+
+## R2D27
+Barebones React App - no CRA, setup from scratch
+
+npm init (to create package.json)
+
+npm install —save packagename
+
+npm install —save-dev packagename for dev dependency
+
+## R2D28
+Firebase Setup
+
+Data is stored as documents, which are gathered in collections
+
+Collections: photos, users
+
+Firestore rules
+
+```jsx
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read;
+      allow write: if request.auth.uid != null;
+    }
+  }
+}
+```
+
+Firebase Authentication: email/password out of the box, email link(passwordless), various social platforms
+
+Import firebase into the application
+
+Firebase Context (rerendering, memoization techniques)
+
+## R2D29
+Redux — **Flux** Design Pattern
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ecadb77c-fcde-456f-90ce-fd6a8f9587e7/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ecadb77c-fcde-456f-90ce-fd6a8f9587e7/Untitled.png)
+
+  + **Middleware between Action and Dispatcher (Redux-logger) to show which actions have been called**
+
+Redux async functions ⇒ Thunk Middleware: Listens for actions that instead of returning an object it returns a function.. Simple Redux doesn't understand a returned function from a reducer.
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/483decc3-5a4a-4934-a161-69546339ada0/Screen_Shot_2021-02-28_at_16.59.02.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/483decc3-5a4a-4934-a161-69546339ada0/Screen_Shot_2021-02-28_at_16.59.02.png)
+
+**Project structure:**
+
+Use folder for each smart component, containing all its logic, styles, and Redux things(constants, actions, reducers)
+
+React ⇒ Component-driven user interfaces
+
+**TOOLS:**
+
+React Router
+
+Lodash (functional library)
+
+Styled-Components
+
+Redux-saga >> Redux-thunk
+
+Immutable.js
+
+Do I really need it? — Added weight, added dependencies that can break in the future
