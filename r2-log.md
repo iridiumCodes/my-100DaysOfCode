@@ -402,13 +402,9 @@ Firebase Context (rerendering, memoization techniques)
 ## R2D29
 Redux — **Flux** Design Pattern
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ecadb77c-fcde-456f-90ce-fd6a8f9587e7/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ecadb77c-fcde-456f-90ce-fd6a8f9587e7/Untitled.png)
-
   + **Middleware between Action and Dispatcher (Redux-logger) to show which actions have been called**
 
 Redux async functions ⇒ Thunk Middleware: Listens for actions that instead of returning an object it returns a function.. Simple Redux doesn't understand a returned function from a reducer.
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/483decc3-5a4a-4934-a161-69546339ada0/Screen_Shot_2021-02-28_at_16.59.02.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/483decc3-5a4a-4934-a161-69546339ada0/Screen_Shot_2021-02-28_at_16.59.02.png)
 
 **Project structure:**
 
