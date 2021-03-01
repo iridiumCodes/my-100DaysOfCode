@@ -425,3 +425,54 @@ Redux-saga >> Redux-thunk
 Immutable.js
 
 Do I really need it? — Added weight, added dependencies that can break in the future
+
+## R2D30
+**INITIAL SETUP**
+
+Setup Project Folder Structure
+
+Setup Firebase - Firestore and Authentication (development rules) —> switch to production rules 
+
+```jsx
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read;
+      allow write: if request.auth.uid != null;
+    }
+  }
+}
+```
+
+Create seed file to populate the data store the first time
+
+Create Firebase Context
+
+Import Firebase Context in index.js
+
+Import relevant Firebase libraries in lib/firebase.js
+
+Add config details from our Firebase Project settings (apiKey, authDomain, etc...)
+
+initializeApp(config) as firebase
+
+Pull FieldValue from Firebase.firestore
+
+Export firebase and FieldValue to use them centrally (in index.js)
+
+Create the Context Provider in index.js with the two imported values mentioned before.
+
+---
+
+**LOGIN PAGE**
+
+We will be redirecting users to pages so we use react-router-dom
+
+Pull from react-router-dom Router, Route, Switch
+
+In order to split up a big bundle into lighter loads, we load the component when it is requested, using lazy from react and Suspense
+
+Create a login.js in pages, and export a dummy Login() function
+
+Suspense provides us with a fallback as we wait for the component to load
