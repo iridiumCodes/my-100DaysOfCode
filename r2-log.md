@@ -476,3 +476,12 @@ In order to split up a big bundle into lighter loads, we load the component when
 Create a login.js in pages, and export a dummy Login() function
 
 Suspense provides us with a fallback as we wait for the component to load
+
+---
+
+**ROUTES - CONSTANTS
+**
+
+Create constants for routes that will be used in the app
+
+import * as ROUTES to use each route [helpful because VS Code shows the available routes]
