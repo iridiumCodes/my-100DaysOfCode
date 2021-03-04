@@ -485,3 +485,39 @@ Suspense provides us with a fallback as we wait for the component to load
 Create constants for routes that will be used in the app
 
 import * as ROUTES to use each route [helpful because VS Code shows the available routes]
+
+
+## R2D31
+SETUP LOGIN PAGE
+
+useHistory hook  from react-router-dom ⇒
+
+useContext hook from react ⇒
+
+useState hook from react ⇒
+
+Basic Validation
+
+useEffect hook from react ⇒ 
+
+SETUP TAILWIND:
+
+dev dependency packages: npm-run-all, postcss, postcss-cli, prop-types, tailwindcss, autoprefixer
+
+tweak the scripts to be:
+
+```jsx
+"build:css": "postcss src/styles/tailwind.css -o src/styles/app.css",
+"watch:css": "postcss src/styles/tailwind.css -o src/styles/app.css --watch",
+"react-scripts:start": "sleep 5 && react-scripts start",
+"start": "run-p watch:css react-scripts:start",
+"build": "run-s build:css react-scripts:build",
+```
+
+**tailwind.css gets compiled to app.css**
+
+Import styles folder into index.js
+
+Config files for tailwind and postcss
+
+Input fields for email and password
