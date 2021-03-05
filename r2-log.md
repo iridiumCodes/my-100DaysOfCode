@@ -521,3 +521,14 @@ Import styles folder into index.js
 Config files for tailwind and postcss
 
 Input fields for email and password
+
+## R2D32
+Sign In and Sign up Buttons
+
+Tailwind Colors Configuration
+
+HandleLogin function
+
+Sign Up page
+
+TODO: handleSignup function
