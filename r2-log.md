@@ -532,3 +532,13 @@ HandleLogin function
 Sign Up page
 
 TODO: handleSignup function
+
+## R2D33
+
+- [x]  TODO: handleSignup function
+- [x]  Pages: Not-found, Dashboard
+- [ ]  Components in Dashboard: ~~Header~~, Timeline, Sideboard
+
+Header — use-auth-listener custom hook to listen for when a user logs-in or out
+
+Header layout, check if user is Signed in and show equivalent view
