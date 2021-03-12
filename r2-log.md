@@ -542,3 +542,22 @@ TODO: handleSignup function
 Header — use-auth-listener custom hook to listen for when a user logs-in or out
 
 Header layout, check if user is Signed in and show equivalent view
+
+## R2D34
+Use gravatar for profile images—!
+
+Sidebar: User - Suggestions
+
+Custom hook (***use-user*** - returns the current user based on uid)
+
+## R2D35
+Figma to HTML/CSS Landing Page
+
+- Project setup (repo, sass, live sass compiler, figma file, project folder structure
+- Header done
+- Responsive header done
+
+## R2D36
+
+- Hamburger icon animation to X, fade in overlay
+- Mobile Menu - create markup, css, fade in
