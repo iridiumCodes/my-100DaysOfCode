@@ -319,7 +319,7 @@ Tweaked some colors for better contrast and UX
 ## R2D25
 CSS Reset by Chris Coyier
 
-```jsx
+```css
 html {
   box-sizing: border-box;
   font-size: 100%;
