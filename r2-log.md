@@ -561,3 +561,19 @@ Figma to HTML/CSS Landing Page
 
 - Hamburger icon animation to X, fade in overlay
 - Mobile Menu - create markup, css, fade in
+
+## R2D37
+Responsive hero (mobile and desktop styles)
+
+Mobile styles: use the two images as background-image in the css, and the phone mockups image as a pseudoelement (::before)
+
+For ::before, rememember to define
+
+- content: ' '
+- width, height
+- position
+- background-size( cover, or you may use percentages)
+
+Create helper classes to manipulate the padding for different axis and sides:
+
+& — pt, &—pb, &—pr, &—pl, &—pall, &—pX, &—pY (X and Y axis)
