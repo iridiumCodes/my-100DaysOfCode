@@ -577,3 +577,6 @@ For ::before, rememember to define
 Create helper classes to manipulate the padding for different axis and sides:
 
 & — pt, &—pb, &—pr, &—pl, &—pall, &—pX, &—pY (X and Y axis)
+
+## R2D38
+- EasyBank Landing Page Feature section - typography, responsive styles, padding, layout
