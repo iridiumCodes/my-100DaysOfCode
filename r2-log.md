@@ -585,7 +585,7 @@ Create helper classes to manipulate the padding for different axis and sides:
 -Articles Section
 -Fixed overlay to be on top and menu items visible
 
-##R2D40
+## R2D40
 -Expenses Tracker add Date field and Type select field, clear form after submit
 -Easybank Footer - Make logo for dark version by tweaking the path fill property to white - Grid Template Areas - Remove min-height - Replace button opacity effect with overlay by using a pseudoelement ::before
 -Merged PR that fixes bottom whitespace
