@@ -592,3 +592,6 @@ Create helper classes to manipulate the padding for different axis and sides:
 
 ## R2D41
 -Deployed expenses-tracker to Netlify, Updated the deployment of Color Detector to Heroku and deployed the easybank landing page to Github pages
+
+## R2D42
+-Python setup (Python download and python vs code extension) + python knowledge test + variables
