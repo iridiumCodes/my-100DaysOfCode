@@ -589,3 +589,6 @@ Create helper classes to manipulate the padding for different axis and sides:
 -Expenses Tracker add Date field and Type select field, clear form after submit
 -Easybank Footer - Make logo for dark version by tweaking the path fill property to white - Grid Template Areas - Remove min-height - Replace button opacity effect with overlay by using a pseudoelement ::before
 -Merged PR that fixes bottom whitespace
+
+## R2D41
+-Deployed expenses-tracker to Netlify, Updated the deployment of Color Detector to Heroku and deployed the easybank landing page to Github pages
